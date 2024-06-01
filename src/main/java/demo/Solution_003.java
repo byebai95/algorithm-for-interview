@@ -1,11 +1,12 @@
-package demo.digit;
+package demo;
 
 /**
  * 给定一个数字，返回带有千分位逗号的字符串
+ *
  * 输入 1234
  * 输出 1,234
  */
-public class ThousandthDigits {
+public class Solution_003 {
 
     public String thousandthDigits(int number) {
         StringBuilder originStr = new StringBuilder(String.valueOf(number)).reverse();
@@ -22,7 +23,7 @@ public class ThousandthDigits {
 
     public static void main(String[] args) {
         int number = 0;
-        String result = new ThousandthDigits().thousandthDigits(number);
+        String result = new Solution_003().thousandthDigits(number);
         System.out.println(result);
 
     }

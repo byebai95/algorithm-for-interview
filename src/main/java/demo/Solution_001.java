@@ -1,13 +1,11 @@
-package demo.sort;
+package demo;
 
 import java.util.Arrays;
 
 /**
  * 冒泡排序
- * 输入 [3,2,5,8,4,7,6,9]
- * 输出 [2,3,4,5,6,7,8,9]
  */
-public class BubbleSort {
+public class Solution_001 {
 
     public void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
@@ -29,7 +27,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         // 测试
         int[] arr = new int[]{3, 2, 5, 8, 4, 7, 6, 9};
-        new BubbleSort().bubbleSort(arr);
+        new Solution_001().bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }

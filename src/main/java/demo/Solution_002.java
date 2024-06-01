@@ -1,11 +1,11 @@
-package demo.sort;
+package demo;
 
 import java.util.Arrays;
 
 /**
  * 归并排序
  */
-public class MergeSort {
+public class Solution_002 {
 
     public int[] sort(int[] arr) {
         if (arr.length < 2) {
@@ -49,7 +49,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
         int[] arr = new int[]{3, 2, 5, 8, 4, 7, 6, 9};
-        int[] result = new MergeSort().sort(arr);
+        int[] result = new Solution_002().sort(arr);
         System.out.println(Arrays.toString(result));
 
 //        int[] arr1 = new int[]{1, 2, 4};
